@@ -1,0 +1,824 @@
+Archive member included because of file (symbol)
+
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_mulsi3.o)
+                              ./includes/timerx8.o (__mulsi3)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+                              ./includes/buffer.o (__udivmodhi4)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodsi4.o)
+                              ./includes/rprintf.o (__udivmodsi4)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_divmodsi4.o)
+                              ./includes/timerx8.o (__divmodsi4)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                              c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o (exit)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                              ./main.o (__do_clear_bss)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+                              ./includes/twi.o (calloc)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o) (malloc)
+c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(memset.o)
+                              c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+uartReadyTx         0x1               ./includes/uart.o
+usbTxBuf            0xb               ./usbdrv/usbdrv.o
+i2c_return          0x1               ./main.o
+nunchuck_cmd_buf    0x3               ./main.o
+nunchuck_buf        0x6               ./main.o
+usbTxStatus1        0xc               ./usbdrv/usbdrv.o
+Timer0Reg0          0x4               ./includes/timerx8.o
+uartRxBuffer        0x8               ./includes/uart.o
+TimerPauseReg       0x4               ./includes/timerx8.o
+__brkval            0x2               c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+Timer2Reg0          0x4               ./includes/timerx8.o
+usbDeviceAddr       0x1               ./usbdrv/usbdrv.o
+uartBufferedTx      0x1               ./includes/uart.o
+usbRxToken          0x1               ./usbdrv/usbdrv.o
+usbInputBufOffset   0x1               ./usbdrv/usbdrv.o
+usbMsgPtr           0x2               ./usbdrv/usbdrv.o
+usbRxLen            0x1               ./usbdrv/usbdrv.o
+usbNewDeviceAddr    0x1               ./usbdrv/usbdrv.o
+usbCurrentTok       0x1               ./usbdrv/usbdrv.o
+__flp               0x2               c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+uartTxBuffer        0x8               ./includes/uart.o
+usbConfiguration    0x1               ./usbdrv/usbdrv.o
+uartRxOverflow      0x2               ./includes/uart.o
+usbRxBuf            0x16              ./usbdrv/usbdrv.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+LOAD ./main.o
+LOAD ./usbdrv/oddebug.o
+LOAD ./usbdrv/usbdrv.o
+LOAD ./usbdrv/usbdrvasm.o
+LOAD ./includes/buffer.o
+LOAD ./includes/rprintf.o
+LOAD ./includes/timerx8.o
+LOAD ./includes/twi.o
+LOAD ./includes/uart.o
+LOAD c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+LOAD c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libm.a
+LOAD c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+LOAD c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1efc
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000068       0x47 ./main.o
+                0x00000068                usbDescriptorHidReport
+ .progmem.data  0x000000af       0x5e ./usbdrv/usbdrv.o
+                0x000000d9                usbDescriptorDevice
+                0x000000af                usbDescriptorString0
+                0x000000eb                usbDescriptorConfiguration
+                0x000000b3                usbDescriptorStringVendor
+                0x000000c5                usbDescriptorStringDevice
+ .progmem.data  0x0000010d       0x11 ./includes/rprintf.o
+ .progmem.data  0x0000011e       0x1c ./includes/timerx8.o
+                0x0000012a                TimerRTCPrescaleFactor
+                0x0000011e                TimerPrescaleFactor
+                0x0000013a                . = ALIGN (0x2)
+                0x0000013a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000013a        0x0 linker stubs
+ *(.trampolines*)
+                0x0000013a                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000013a                __ctors_start = .
+ *(.ctors)
+                0x0000013a                __ctors_end = .
+                0x0000013a                __dtors_start = .
+ *(.dtors)
+                0x0000013a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000013a        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+                0x0000013a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000013a        0xc c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000146       0x16 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                0x00000146                __do_copy_data
+ .init4         0x0000015c       0x10 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000015c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000016c        0x8 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+ *(.init9)
+ *(.text)
+ .text          0x00000174        0x4 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+                0x00000174                __vector_22
+                0x00000174                __bad_interrupt
+                0x00000174                __vector_6
+                0x00000174                __vector_3
+                0x00000174                __vector_23
+                0x00000174                __vector_25
+                0x00000174                __vector_17
+                0x00000174                __vector_19
+                0x00000174                __vector_5
+                0x00000174                __vector_4
+                0x00000174                __vector_2
+                0x00000174                __vector_21
+                0x00000174                __vector_15
+                0x00000174                __vector_14
+ .text          0x00000178      0x1c0 ./main.o
+                0x000001c0                delayms
+                0x00000178                usbFunctionSetup
+                0x000001d4                main
+                0x000001be                usbEventResetReady
+ .text          0x00000338        0x0 ./usbdrv/oddebug.o
+ .text          0x00000338      0x26a ./usbdrv/usbdrv.o
+                0x00000352                usbPoll
+                0x0000055c                usbSetInterrupt
+                0x00000338                usbInit
+ .text          0x000005a2      0x274 ./usbdrv/usbdrvasm.o
+                0x000005d4                __vector_1
+                0x000005a2                usbCrc16
+                0x000005cc                usbCrc16Append
+ .text          0x00000816      0x160 ./includes/buffer.o
+                0x00000950                bufferIsNotFull
+                0x00000830                bufferGetFromFront
+                0x000008da                bufferGetAtIndex
+                0x00000896                bufferDumpFromFront
+                0x00000816                bufferInit
+                0x00000902                bufferAddToEnd
+                0x00000968                bufferFlush
+ .text          0x00000976      0x3e0 ./includes/rprintf.o
+                0x00000c2e                rprintf1RamRom
+                0x00000a5c                rprintfu08
+                0x00000a86                rprintfu32
+                0x000009a4                rprintfStr
+                0x000009c2                rprintfStrLen
+                0x00000a1e                rprintfProgStr
+                0x00000a72                rprintfu16
+                0x00000976                rprintfInit
+                0x00000980                rprintfChar
+                0x00000a3e                rprintfCRLF
+                0x00000a46                rprintfu04
+                0x00000aac                rprintfNum
+ .text          0x00000d56      0x750 ./includes/timerx8.o
+                0x00001046                timer2GetOverflowCount
+                0x00000ee2                timerDetach
+                0x00000e5e                timer1SetPrescaler
+                0x0000133e                __vector_12
+                0x0000113e                timer1PWMBOff
+                0x00000eb0                timer2GetPrescaler
+                0x00000de2                timer0Init
+                0x0000112c                timer1PWMAOff
+                0x0000115a                timer1PWMBSet
+                0x000012e4                __vector_11
+                0x000010a4                timer1PWMInitICR
+                0x0000120a                __vector_13
+                0x00000e7a                timer0GetPrescaler
+                0x000013f2                __vector_7
+                0x0000101e                timer0GetOverflowCount
+                0x00000d58                timerInit
+                0x00000e6c                timer2SetPrescaler
+                0x00001108                timer1PWMAOn
+                0x00000e54                timer0SetPrescaler
+                0x00000d56                delay_us
+                0x0000100c                timer0ClearOverflowCount
+                0x00001264                __vector_9
+                0x00000e08                timer1Init
+                0x0000105c                timer1PWMInit
+                0x0000111a                timer1PWMBOn
+                0x00000e28                timer2Init
+                0x0000144c                __vector_8
+                0x00001150                timer1PWMASet
+                0x00000ecc                timerAttach
+                0x000010de                timer1PWMOff
+                0x00001398                __vector_10
+                0x00001164                __vector_16
+                0x00000e94                timer1GetPrescaler
+                0x00001034                timer2ClearOverflowCount
+                0x00000ef8                timerPause
+ .text          0x000014a6      0x4d2 ./includes/twi.o
+                0x00001594                twi_transmit
+                0x00001612                __vector_24
+                0x00001606                twi_releaseBus
+                0x000015ce                twi_attachSlaveRxEvent
+                0x00001916                twi_init
+                0x0000150a                twi_writeTo
+                0x000015d8                twi_attachSlaveTxEvent
+                0x000014ae                twi_readFrom
+                0x000015e2                twi_reply
+                0x000015f2                twi_stop
+                0x000014a6                twi_setAddress
+ .text          0x00001978      0x256 ./includes/uart.o
+                0x00001af6                uartSendTxBuffer
+                0x000019c8                uartSendByte
+                0x00001b78                uartInitBuffers
+                0x00001b18                uartReceiveByte
+                0x00001a7a                uartAddToTxBuffer
+                0x00001978                uartSetRxHandler
+                0x000019dc                uartFlushReceiveBuffer
+                0x00001b9a                uartInit
+                0x000019e6                uartReceiveBufferIsEmpty
+                0x00001982                uartSetBaudRate
+                0x000019c2                uartGetTxBuffer
+                0x00001b4c                uartGetByte
+                0x000019bc                uartGetRxBuffer
+                0x000019fa                __vector_18
+                0x00001a86                __vector_20
+ .text          0x00001bce        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00001bce        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00001bce        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00001bce        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00001bce        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text          0x00001bce        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00001bce        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00001bce       0x38 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+                0x00001bce                calloc
+ .text          0x00001c06      0x204 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00001c06                malloc
+                0x00001d5a                free
+ .text          0x00001e0a        0xe c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00001e0a                memset
+                0x00001e18                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00001e18       0x3e c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_mulsi3.o)
+                0x00001e18                __mulsi3
+ .text.libgcc   0x00001e56       0x28 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x00001e56                __udivmodhi4
+ .text.libgcc   0x00001e7e       0x44 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001e7e                __udivmodsi4
+ .text.libgcc   0x00001ec2       0x36 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_divmodsi4.o)
+                0x00001ec2                __divmodsi4
+ .text.libgcc   0x00001ef8        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00001ef8        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00001ef8        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                0x00001ef8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001ef8        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                0x00001ef8                exit
+                0x00001ef8                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001ef8        0x4 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001efc                _etext = .
+
+.data           0x00800100        0x8 load address 0x00001efc
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+ .data          0x00800100        0x0 ./main.o
+ .data          0x00800100        0x0 ./usbdrv/oddebug.o
+ .data          0x00800100        0x2 ./usbdrv/usbdrv.o
+                0x00800100                usbTxLen
+ .data          0x00800102        0x0 ./usbdrv/usbdrvasm.o
+ .data          0x00800102        0x0 ./includes/buffer.o
+ .data          0x00800102        0x0 ./includes/rprintf.o
+ .data          0x00800102        0x0 ./includes/timerx8.o
+ .data          0x00800102        0x0 ./includes/twi.o
+ .data          0x00800102        0x0 ./includes/uart.o
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800102        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .data          0x00800102        0x6 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800104                __malloc_heap_start
+                0x00800106                __malloc_heap_end
+                0x00800102                __malloc_margin
+ .data          0x00800108        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(memset.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800108                . = ALIGN (0x2)
+                0x00800108                _edata = .
+                0x00800108                PROVIDE (__data_end, .)
+
+.bss            0x00800108      0x10e
+                0x00800108                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800108        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+ .bss           0x00800108        0x5 ./main.o
+ .bss           0x0080010d        0x0 ./usbdrv/oddebug.o
+ .bss           0x0080010d        0x1 ./usbdrv/usbdrv.o
+ .bss           0x0080010e        0x0 ./usbdrv/usbdrvasm.o
+ .bss           0x0080010e        0x0 ./includes/buffer.o
+ .bss           0x0080010e        0x2 ./includes/rprintf.o
+ .bss           0x00800110        0xe ./includes/timerx8.o
+ .bss           0x0080011e       0x12 ./includes/twi.o
+ .bss           0x00800130       0x82 ./includes/uart.o
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x008001b2        0x0 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(memset.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008001b2        0xa ./main.o
+                0x008001b2                i2c_return
+                0x008001b3                nunchuck_cmd_buf
+                0x008001b6                nunchuck_buf
+ COMMON         0x008001bc       0x36 ./usbdrv/usbdrv.o
+                0x008001bc                usbTxBuf
+                0x008001c7                usbTxStatus1
+                0x008001d3                usbDeviceAddr
+                0x008001d4                usbRxToken
+                0x008001d5                usbInputBufOffset
+                0x008001d6                usbMsgPtr
+                0x008001d8                usbRxLen
+                0x008001d9                usbNewDeviceAddr
+                0x008001da                usbCurrentTok
+                0x008001db                usbConfiguration
+                0x008001dc                usbRxBuf
+ COMMON         0x008001f2        0xc ./includes/timerx8.o
+                0x008001f2                Timer0Reg0
+                0x008001f6                TimerPauseReg
+                0x008001fa                Timer2Reg0
+ COMMON         0x008001fe       0x14 ./includes/uart.o
+                0x008001fe                uartReadyTx
+                0x008001ff                uartRxBuffer
+                0x00800207                uartBufferedTx
+                0x00800208                uartTxBuffer
+                0x00800210                uartRxOverflow
+ COMMON         0x00800212        0x4 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800212                __brkval
+                0x00800214                __flp
+                0x00800216                PROVIDE (__bss_end, .)
+                0x00001efc                __data_load_start = LOADADDR (.data)
+                0x00001f04                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800216        0x0
+                0x00800216                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800216                PROVIDE (__noinit_end, .)
+                0x00800216                _end = .
+                0x00800216                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(atmega168_serial_twi.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+Timer0Reg0                                        ./includes/timerx8.o
+Timer2Reg0                                        ./includes/timerx8.o
+TimerPauseReg                                     ./includes/timerx8.o
+TimerPrescaleFactor                               ./includes/timerx8.o
+TimerRTCPrescaleFactor                            ./includes/timerx8.o
+__bad_interrupt                                   c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__brkval                                          c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+__bss_end                                         c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+__data_end                                        c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__divmodsi4                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_divmodsi4.o)
+                                                  ./includes/timerx8.o
+__do_clear_bss                                    c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+                                                  ./includes/uart.o
+                                                  ./includes/twi.o
+                                                  ./includes/timerx8.o
+                                                  ./includes/rprintf.o
+                                                  ./includes/buffer.o
+                                                  ./usbdrv/usbdrv.o
+                                                  ./usbdrv/oddebug.o
+                                                  ./main.o
+__do_copy_data                                    c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+                                                  ./includes/uart.o
+                                                  ./includes/twi.o
+                                                  ./includes/timerx8.o
+                                                  ./includes/rprintf.o
+                                                  ./includes/buffer.o
+                                                  ./usbdrv/usbdrv.o
+                                                  ./usbdrv/oddebug.o
+                                                  ./main.o
+__flp                                             c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+__heap_end                                        c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+__heap_start                                      c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+__init                                            c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__malloc_heap_end                                 c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+__malloc_heap_start                               c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+__malloc_margin                                   c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+__mulsi3                                          c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_mulsi3.o)
+                                                  ./includes/timerx8.o
+__stack                                           c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__udivmodhi4                                      c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+                                                  ./includes/rprintf.o
+                                                  ./includes/buffer.o
+__udivmodsi4                                      c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodsi4.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_divmodsi4.o)
+                                                  ./includes/uart.o
+                                                  ./includes/timerx8.o
+                                                  ./includes/rprintf.o
+__vector_1                                        ./usbdrv/usbdrvasm.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_10                                       ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_11                                       ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_12                                       ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_13                                       ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_14                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_15                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_16                                       ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_17                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_18                                       ./includes/uart.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_19                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_2                                        c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_20                                       ./includes/uart.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_21                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_22                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_23                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_24                                       ./includes/twi.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_25                                       c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_3                                        c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_4                                        c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_5                                        c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_6                                        c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_7                                        ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_8                                        ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_9                                        ./includes/timerx8.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vector_default                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+__vectors                                         c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+_exit                                             c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+bufferAddToEnd                                    ./includes/buffer.o
+                                                  ./includes/uart.o
+bufferDumpFromFront                               ./includes/buffer.o
+bufferFlush                                       ./includes/buffer.o
+bufferGetAtIndex                                  ./includes/buffer.o
+bufferGetFromFront                                ./includes/buffer.o
+                                                  ./includes/uart.o
+bufferInit                                        ./includes/buffer.o
+                                                  ./includes/uart.o
+bufferIsNotFull                                   ./includes/buffer.o
+calloc                                            c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+                                                  ./includes/twi.o
+delay_us                                          ./includes/timerx8.o
+delayms                                           ./main.o
+exit                                              c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+free                                              c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+i2c_return                                        ./main.o
+main                                              ./main.o
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm168.o
+malloc                                            c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+memset                                            c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(memset.o)
+                                                  c:/dev/winavr-20081205/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(calloc.o)
+nunchuck_buf                                      ./main.o
+nunchuck_cmd_buf                                  ./main.o
+rprintf1RamRom                                    ./includes/rprintf.o
+                                                  ./main.o
+rprintfCRLF                                       ./includes/rprintf.o
+                                                  ./main.o
+rprintfChar                                       ./includes/rprintf.o
+rprintfInit                                       ./includes/rprintf.o
+                                                  ./main.o
+rprintfNum                                        ./includes/rprintf.o
+                                                  ./main.o
+rprintfProgStr                                    ./includes/rprintf.o
+rprintfStr                                        ./includes/rprintf.o
+rprintfStrLen                                     ./includes/rprintf.o
+rprintfu04                                        ./includes/rprintf.o
+rprintfu08                                        ./includes/rprintf.o
+rprintfu16                                        ./includes/rprintf.o
+rprintfu32                                        ./includes/rprintf.o
+timer0ClearOverflowCount                          ./includes/timerx8.o
+timer0GetOverflowCount                            ./includes/timerx8.o
+timer0GetPrescaler                                ./includes/timerx8.o
+timer0Init                                        ./includes/timerx8.o
+timer0SetPrescaler                                ./includes/timerx8.o
+timer1GetPrescaler                                ./includes/timerx8.o
+timer1Init                                        ./includes/timerx8.o
+timer1PWMAOff                                     ./includes/timerx8.o
+timer1PWMAOn                                      ./includes/timerx8.o
+timer1PWMASet                                     ./includes/timerx8.o
+timer1PWMBOff                                     ./includes/timerx8.o
+timer1PWMBOn                                      ./includes/timerx8.o
+timer1PWMBSet                                     ./includes/timerx8.o
+timer1PWMInit                                     ./includes/timerx8.o
+timer1PWMInitICR                                  ./includes/timerx8.o
+timer1PWMOff                                      ./includes/timerx8.o
+timer1SetPrescaler                                ./includes/timerx8.o
+timer2ClearOverflowCount                          ./includes/timerx8.o
+timer2GetOverflowCount                            ./includes/timerx8.o
+timer2GetPrescaler                                ./includes/timerx8.o
+timer2Init                                        ./includes/timerx8.o
+timer2SetPrescaler                                ./includes/timerx8.o
+timerAttach                                       ./includes/timerx8.o
+timerDetach                                       ./includes/timerx8.o
+timerInit                                         ./includes/timerx8.o
+timerPause                                        ./includes/timerx8.o
+twi_attachSlaveRxEvent                            ./includes/twi.o
+twi_attachSlaveTxEvent                            ./includes/twi.o
+twi_init                                          ./includes/twi.o
+                                                  ./main.o
+twi_readFrom                                      ./includes/twi.o
+                                                  ./main.o
+twi_releaseBus                                    ./includes/twi.o
+twi_reply                                         ./includes/twi.o
+twi_setAddress                                    ./includes/twi.o
+twi_stop                                          ./includes/twi.o
+twi_transmit                                      ./includes/twi.o
+twi_writeTo                                       ./includes/twi.o
+                                                  ./main.o
+uartAddToTxBuffer                                 ./includes/uart.o
+uartBufferedTx                                    ./includes/uart.o
+uartFlushReceiveBuffer                            ./includes/uart.o
+uartGetByte                                       ./includes/uart.o
+uartGetRxBuffer                                   ./includes/uart.o
+uartGetTxBuffer                                   ./includes/uart.o
+uartInit                                          ./includes/uart.o
+                                                  ./main.o
+uartInitBuffers                                   ./includes/uart.o
+uartReadyTx                                       ./includes/uart.o
+uartReceiveBufferIsEmpty                          ./includes/uart.o
+uartReceiveByte                                   ./includes/uart.o
+uartRxBuffer                                      ./includes/uart.o
+uartRxOverflow                                    ./includes/uart.o
+uartSendByte                                      ./includes/uart.o
+                                                  ./main.o
+uartSendTxBuffer                                  ./includes/uart.o
+uartSetBaudRate                                   ./includes/uart.o
+                                                  ./main.o
+uartSetRxHandler                                  ./includes/uart.o
+uartTxBuffer                                      ./includes/uart.o
+usbConfiguration                                  ./usbdrv/usbdrv.o
+usbCrc16                                          ./usbdrv/usbdrvasm.o
+usbCrc16Append                                    ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbCurrentTok                                     ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbDescriptorConfiguration                        ./usbdrv/usbdrv.o
+usbDescriptorDevice                               ./usbdrv/usbdrv.o
+usbDescriptorHidReport                            ./main.o
+                                                  ./usbdrv/usbdrv.o
+usbDescriptorString0                              ./usbdrv/usbdrv.o
+usbDescriptorStringDevice                         ./usbdrv/usbdrv.o
+usbDescriptorStringVendor                         ./usbdrv/usbdrv.o
+usbDeviceAddr                                     ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbEventResetReady                                ./main.o
+usbFunctionSetup                                  ./main.o
+                                                  ./usbdrv/usbdrv.o
+usbInit                                           ./usbdrv/usbdrv.o
+usbInputBufOffset                                 ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbMsgPtr                                         ./usbdrv/usbdrv.o
+                                                  ./main.o
+usbNewDeviceAddr                                  ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbPoll                                           ./usbdrv/usbdrv.o
+usbRxBuf                                          ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbRxLen                                          ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbRxToken                                        ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbSetInterrupt                                   ./usbdrv/usbdrv.o
+usbTxBuf                                          ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
+usbTxLen                                          ./usbdrv/usbdrv.o
+                                                  ./usbdrv/usbdrvasm.o
+usbTxStatus1                                      ./usbdrv/usbdrvasm.o
+                                                  ./usbdrv/usbdrv.o
