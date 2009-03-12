@@ -1,0 +1,3 @@
+--- v.01a (Mar 11, 2009)
+Initial release:
+	Basic Wii CC & Nunchuck support
